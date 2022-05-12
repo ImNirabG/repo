@@ -3,8 +3,8 @@ var toggleSize = true;
 
 $('.uk-button').on('click', function() {
   $('iframe').animate({
-    width: toggleSize ? 356 : 640,
-    height: toggleSize ? 200 : 360
+    width: toggleSize ? 500 : 700,
+    height: toggleSize ? 500 : 700
   }, 250);
 
   toggleSize = !toggleSize;
